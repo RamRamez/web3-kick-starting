@@ -40,6 +40,7 @@ createWeb3Modal({
 	wagmiConfig,
 	projectId,
 	chains,
+	themeMode: 'light',
 });
 
 export function Web3Modal({ children }: { children: ReactNode }) {
